@@ -1,0 +1,197 @@
+body {
+    background-color: rgba(7, 15, 15,1);
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+/* Light Mode */
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+
+
+.card.light-mode {
+    background-color: white;
+}
+
+.navbar.light-mode {
+    background-color: white;
+}
+
+/* Navbar Dark Mode Toggler Icon */
+.navbar-dark .navbar-toggler-icon {
+    background-image: url('assets/images/night-mode.png');
+    width: 20px;
+}
+
+/* Navbar Hover Effects */
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    font-size: medium;
+}
+
+.navbar .navbar-brand:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    font-size: medium;
+}
+
+/* Card Styling */
+.card {
+    margin-top: 100px;
+    display: flex;
+    max-width: 100%;
+    background-color: rgba(7, 15, 15,1);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card-img {
+    border-radius: 10%;
+    width: 300px;
+    height: 500px;
+}
+
+.card-title {
+    margin-top: 70px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Button Styling */
+.btnn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: darkgoldenrod;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btnn:hover {
+    background-color: darkgoldenrod;
+}
+
+
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Styling for Words and Lines */
+
+
+
+
+/* Container Styling */
+.text-container {
+    margin-inline: 10%;
+}
+
+/* Video and Info Container Styling */
+
+
+.content {
+    text-align: center;
+}
+
+.image {
+    width: 90%;
+    height: 400px;
+}
+
+/* Button Styling */
+
+
+.dec {
+    margin-top: 60px;
+}
+
+/* Carousel Styling */
+.carousel {
+height: 550px;
+}
+
+/* Animation Styling */
+.animated {
+    margin: 40px;
+}
+
+/* Alternating List Styling */
+.alternating-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+.alternating-list {
+    margin: 20px;
+}
+/*///////////////////////////////////////////////////////////////
+
+/* Main Content Styles */
+.containere {
+    padding-top: 9%;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/*//////////////////////////////////////////////////////////////*/
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+
+  
+  .cards {
+    border: 1px solid #000000 !important;
+    box-shadow: 0px 0px 10px 0px #0000000D !important;
+  }
+
+.card-img-top {
+    height: 300px;
+    padding-top: 10px;
+}
+
+.card-text {
+    font-size: 30px;
+
+}
+
+.btn-primary {
+    background-color: darkgoldenrod;
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: darkgoldenrod;
+}
+/*////////////////////*/
+
+
+
